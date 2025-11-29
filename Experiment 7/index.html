@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Navigation Layout</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #e6e691;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Top grey bar */
+    .header {
+        width: 100%;
+        background: #d3d3d3;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 14px;
+        color: black;
+    }
+
+    .header span {
+        color: red;
+        font-weight: bold;
+ }
+
+    /* Container for all buttons */
+    .nav-section {
+        padding: 10px;
+        background: white;
+    }
+
+    /* Blue buttons row */
+    .top-buttons button  {
+        background-color: #b7d5f5;
+        border: 3px solid #999;
+        padding: 5px 10px;
+        margin-right: 1px;
+        margin-bottom: 3px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    /* Green buttons row */
+    .bottom-buttons button {
+        background-color: #b6ffb0;
+        border: 3px solid #999;
+        padding: 5px 10px;
+        margin-right: 1px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    My <span>Website</span> Navigation
+</div>
+
+<!-- Navigation Buttons -->
+<div class="nav-section">
+
+    <!-- First row (blue) -->
+    <center>
+    <div class="top-buttons">
+        <button>Home</button>
+        <button>About</button>
+        <button>Services</button>
+        <button>Contact</button>
+    </div>
+
+    <!-- Second row (green) -->
+    <div class="bottom-buttons">
+        <button>Dashboard</button>
+        <button>Profile</button>
+        <button>Message</button>
+        <button>Logout</button>
+    </div>
+
+</div>
+
+</body>
+</html>
